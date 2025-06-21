@@ -13,7 +13,7 @@ typedef struct Carta {
     Cor cor;
     TipoCarta tipo;
     int valor; 
-    struct Carta *prox;
+    struct Carta *proxima;
 } Carta;
 
 typedef struct {
